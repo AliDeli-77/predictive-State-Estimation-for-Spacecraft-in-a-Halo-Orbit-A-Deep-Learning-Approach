@@ -51,9 +51,7 @@ class Control:
                     
                     measures_tensor = torch.stack(chaser_measures)
                     measures_tensor = measures_tensor.unsqueeze(0)
-                    #y_hat = self.stimator.predict(measures_tensor).squeeze(0)
-                    y_hat = self.environment.chaser_state
-
+                    y_hat = self.stimator.predict(measures_tensor).squeeze(0)
                     error = self.environment.target_state - y_hat
                     action = K @ np.transpose(error.detach().cpu().numpy())
                     actions[i + 1] = action

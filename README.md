@@ -44,6 +44,8 @@ The system is designed to be modular:
 - **results/**: Directory for all generated plots and figures.  
 - **src/**: All Python source code for the simulation.  
 
+
+
 ---
 
 ## Dependencies
@@ -124,4 +126,10 @@ Modify the boolean flags at the top of `src/main.py`:
 * **constants.py**: Stores constant matrices (A, B) for spacecraft dynamics.
 
 ```
+---
 
+## Data Availability
+The training data (`x_train.npy`, `y_train.npy`) is too large to be hosted on GitHub.  
+You can download it from "https://drive.google.com/drive/folders/1De8sjXW8I1D_3Cj6rGE5yJR3Ln38j0TK?usp=sharing" and place it inside the `data/` folder.
+
+```
