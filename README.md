@@ -1,5 +1,5 @@
 
-# LSTM-Based State Estimation for Spacecraft Rendezvous Control
+# State Estimation for Spacecraft in a Halo Orbit: A Deep Learning Approach
 
 ## Overview
 This project implements a simulation of a spacecraft rendezvous maneuver using a **Linear-Quadratic Regulator (LQR)** for control.
